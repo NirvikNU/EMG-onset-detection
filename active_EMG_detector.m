@@ -7,7 +7,9 @@
 % (http://www.sciencedirect.com/science/article/pii/S1746809416302269)
 % This GUI interface also allows for manual correction and tuning of
 % parameters of the automated algorithm
-% INPUTS: See EMG_onset_auto.m for inputs and example usage
+% INPUTS: See active_EMG_auto.m for details of inputs
+% EXAMPLE:  fake_EMG = rand(1000,100);
+%           active_EMG = active_EMG_detector(fake_EMG,100,100,500,8,1000);
 % OUPUT: emg_active  = [Time samples vs. epochs] of active EMG periods
 % AUTHOR: NIRVIK SINHA
 

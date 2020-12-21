@@ -23,7 +23,7 @@
 % Onset:    Onset time samples for each trial
 % Offset:   Offset time samples for each trial
 % EXAMPLE:  fake_EMG = rand(1000,100);
-%           active_EMG = active_EMG_auto(fake_EMG,[1 100],100,500,8,1000);
+%           active_EMG = active_EMG_auto(fake_EMG,100,100,500,8,1000);
 % NOTE:     The parameters t1, t2, and scaleF may be
 %           different for different EMG channels for each subject and must be
 %           optimized manually by visualization unless the true onset is known (see
