@@ -31,6 +31,7 @@ function active_EMG_manual(src,~,status_text)
         [xval,~] = ginput(1);
         emgdat.Offset(epochNo) = int64(xval);
         xline(xval,'LineWidth',2,'Color','r');
+        hold off;
         str = 'XX';
         while ~strcmpi(str,'Y') && ~strcmpi(str,'N')
             prompt = 'Are you sure? y/n: ';
